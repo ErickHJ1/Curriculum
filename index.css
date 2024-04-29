@@ -1,0 +1,57 @@
+.cabezero {
+    border: 2px solid black;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+
+
+.foto {
+    float: right;
+    margin-bottom: auto;
+    
+}
+
+.cuadrado {
+    width: 250px; 
+    height: 200px; 
+    background-color: rgb(45, 40, 40);
+    margin-top: 40px;
+    margin-right: 25px;
+    float: right;
+
+}
+
+.cuerpo1 {
+    float: left;
+    margin-bottom: 1px;
+}
+
+.experiencia {
+
+    margin-top: -250px;
+    margin-right: 25px;
+    float: right;
+}
+
+.educacion {
+    width: 250px; 
+    height: 150px; 
+    background-color: rgb(206, 185, 185);
+    margin-top: 20px;
+    margin-right: 25px;
+    float: left;
+}
+
+.puntuacion {
+    float: left;
+    margin-bottom: 0%;
+}
+
+
+
+
+
+
+
+
