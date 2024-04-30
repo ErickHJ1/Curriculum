@@ -1,25 +1,25 @@
 .cabezero {
-    border: 2px solid black;
+    border: 10px solid rgb(171, 162, 162);
     font-style: italic;
     margin-left: 10px;
+    z-index: 2;
 }
 
 
 
 .foto {
     float: right;
-    margin-bottom: auto;
-    
+   
 }
 
 .cuadrado {
-    width: 250px; 
-    height: 200px; 
+    width: 245px; 
+    height: 245px; 
     background-color: rgb(45, 40, 40);
-    margin-top: 40px;
+    margin-top: 10px;
     margin-right: 25px;
     float: right;
-
+    z-index: 3;
 }
 
 .cuerpo1 {
@@ -29,29 +29,40 @@
 
 .experiencia {
 
-    margin-top: -250px;
-    margin-right: 25px;
-    float: right;
+    margin-bottom: -;
+    margin-right: 222px;
+    
 }
 
 .educacion {
     width: 250px; 
-    height: 150px; 
+    height: 225px; 
     background-color: rgb(206, 185, 185);
     margin-top: 20px;
-    margin-right: 25px;
+    margin-left: 10px;
     float: left;
+    font-size: 12px;
 }
 
 .puntuacion {
-    float: left;
-    margin-bottom: 0%;
+    margin-left: 10px;
+    margin-top: 250px;
 }
 
+.cualidad1 {
+    margin-bottom: -125px;
+    margin-left: 25pc;
+    height: 85px;
+    width: 120px; 
+    background-color: gray;
+    font-size: larger;
+}
 
-
-
-
-
-
-
+.cualidad2 {
+    margin-top: 40px;
+    margin-left: 32pc;
+    height: 85px;
+    width: 120px; 
+    background-color: gray;
+    font-size: larger;
+}
