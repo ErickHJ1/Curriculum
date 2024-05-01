@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
 .cabezero {
     border: 10px solid rgb(171, 162, 162);
-    font-style: italic;
+    font-family: sans-serif;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 30px;
+
 }
 
 .cuadrado {
@@ -20,7 +28,7 @@
 
 .experiencia {
 
-    margin-top: -700px;
+    margin-top: -290px;
     margin-left: 900px;
     margin-right: 60px;
     float: left;
@@ -29,9 +37,9 @@
 
 .educacion {
     width: 600px; 
-    height: 700px; 
+    height: 400px; 
     background-color: rgb(206, 185, 185);
-   
+    margin-left: 10px;
 }
 
 .puntuacion {
@@ -53,4 +61,76 @@
     width: 120px; 
     background-color: gray;
     font-size: larger;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.contenedor {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: 0px auto;
+
+}
+
+.toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: scale(.7);
+    background-color: #f8f8f8;
+    border-radius: 25px
+}
+
+#contenedor.active .toggle {
+    left: 40px;
+}
+
+body.active {
+    background-color: black;
+}
+body.active .educacion{
+    color: #f8f8f8;
+}
+body.active .lista{
+    border-left: 4px solid white;
+}
+.lista {border-left: 4px solid black;}
+
+body.active .cabezero {
+    color:  white;
+}
+
+body.active .experiencia {
+    color:  white;
+}
+
+body.active .cualidad {
+    color:  white;
+    margin-top: 100px;
+}
+
+body.active .cualida {
+    color:  white;
+}
+
+body.active .puntuacion {
+    color:  white;
+}
+
+.cualida {
+    margin-left: 1030px; margin-top: -200px; background: gray; height: -1px; width: 310px;
 }
