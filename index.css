@@ -28,7 +28,7 @@
 
 .experiencia {
 
-    margin-top: -290px;
+    margin-top: -490px;
     margin-left: 900px;
     margin-right: 60px;
     float: left;
@@ -132,5 +132,13 @@ body.active .puntuacion {
 }
 
 .cualida {
-    margin-left: 1030px; margin-top: -200px; background: gray; height: -1px; width: 310px;
+    margin-left: 1030px; margin-top: 00px; background: gray; height: 40px; width: 310px;
+}
+
+.borde {
+    border-bottom: 2px solid black
+}
+
+body.active .borde {
+    color: #f8f8f8;
 }
